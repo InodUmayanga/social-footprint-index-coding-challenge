@@ -1,3 +1,4 @@
+// **implimentation of the csolution to the coding challange**
 const express = require('express');
 const https = require('https');
 const mongoose = require('mongoose');
@@ -5,6 +6,8 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const userData = require('./models/userData');
+
+// fromating the data to send for HTTP request
 const options = {
     hostname: 'dodat-programming-test.s3-ap-southeast-2.amazonaws.com',
     port: 443,

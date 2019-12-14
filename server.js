@@ -1,3 +1,7 @@
+// **Please note all the logic regarding the coding challange are not included in this file file**
+// Basic error handling
+// setting up HTTP headers to work on both the local environment and the server
+// Configuring environment to both local and and server environment
 const app = require("./app");
 const http = require("http");
 
